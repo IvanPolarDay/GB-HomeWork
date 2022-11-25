@@ -14,6 +14,7 @@
 
 Console.WriteLine("Введите пятизначное число");
 
+
 int inputNumber = Convert.ToInt32(Console.ReadLine());
 
 
@@ -23,8 +24,8 @@ int ConvertNumber(int inputNumber)
 
     while (inputNumber > 0)
     {
-        convertedNumber = (convertedNumber * 10 + (inputNumber % 10));
-        inputNumber = inputNumber / 10;
+        convertedNumber = convertedNumber * 10 + (inputNumber % 10);
+        inputNumber /= 10;
     }
 
     return convertedNumber;

@@ -4,3 +4,11 @@
 
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
+
+Console.WriteLine("Введите число");
+int number = Convert.ToInt32(Console.ReadLine());
+
+for (int index = 1; index <= number; index++)
+{
+    Console.WriteLine($"{index} в кубе -> {Math.Pow(index, 3)}");
+}
