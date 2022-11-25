@@ -9,6 +9,9 @@
 
 Console.WriteLine("Введите число");
 string number = Console.ReadLine();
+{
+    
+};
 
 if (number.Length > 2)
 {
@@ -18,7 +21,6 @@ else
 {
     Console.WriteLine("Третьей цифры нет");
 }
-
 
 
 // Не могу понять почему не работает цикл, который должен сократить число до трехзначного.
