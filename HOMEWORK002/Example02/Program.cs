@@ -7,20 +7,20 @@
 // 32679 -> 6
 
 
-Console.WriteLine("Введите число");
-string number = Console.ReadLine();
-{
+// Console.WriteLine("Введите число");
+// string number = Console.ReadLine();
+// {
     
-};
+// };
 
-if (number.Length > 2)
-{
-    Console.WriteLine("третья цифра: " + number[2]);
-}
-else
-{
-    Console.WriteLine("Третьей цифры нет");
-}
+// if (number.Length > 2)
+// {
+//     Console.WriteLine("третья цифра: " + number[2]);
+// }
+// else
+// {
+//     Console.WriteLine("Третьей цифры нет");
+// }
 
 
 // Не могу понять почему не работает цикл, который должен сократить число до трехзначного.
